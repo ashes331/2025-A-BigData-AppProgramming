@@ -20,8 +20,8 @@ print("평균 점수:", avg)
 # 40명 중 최고 득점을 한 학생과 점수를 출력하시오.
 # 여러 명인 경우, 학번이 가장 빠른 한 명만 출력되도록 하시오.
 
-max = max(scores, key=scores.get)  # 최고 득점 학생의 학번
-max_score = scores[max]  # 최고 득점 점수
+max = max(scores, key=scores.get)
+max_score = scores[max]
 
 print("최고 득점을 한 학생:", max)
 print("최고 득점 점수:", max_score)
