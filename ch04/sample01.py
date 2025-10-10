@@ -33,12 +33,7 @@ print('='*50)
 print(locations.unique())
 print(locations.unique().size)
 
-kor_df = selected_df[selected_df['location']=='South Korea']
+kor_df = selected_df[selected_df['location'] == 'South Korea']
 print('='*50)
 print(kor_df)
-
-
-
-
-
 
