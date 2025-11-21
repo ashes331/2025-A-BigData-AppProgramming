@@ -13,8 +13,7 @@ ds_data.nlargest(20).plot.pie(figsize=(10,10)) #인치단위
 plt.tight_layout()
 plt.show()
 
-# 그래프 글자 한글로 변경 코드 과제
-
+# 그래프 글자 한글로 변경 코드 과제 -> sample04
 
 
 
