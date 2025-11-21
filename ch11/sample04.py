@@ -1,3 +1,5 @@
+# 그래프 글자 한글로 변경 코드 과제 (11 주차)
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib

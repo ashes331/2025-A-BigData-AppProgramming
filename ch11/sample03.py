@@ -13,8 +13,14 @@ ds_data.nlargest(20).plot.pie(figsize=(10,10)) #인치단위
 plt.tight_layout()
 plt.show()
 
-# 그래프 글자 한글로 변경 코드 과제 -> sample04
 
+
+
+
+
+
+# 그래프 글자 한글로 변경 코드 과제 (11 주차) -> sample04
+# 개발자의 나이가 '35-44 years old' 인 데이터 중에서 개발자가 가장 많이 사용하는 언어 5가지를 파이 차트로 표시 과제 (12 주차)-> sample05
 
 
 
