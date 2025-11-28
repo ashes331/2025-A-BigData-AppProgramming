@@ -15,14 +15,19 @@ print(df_raw)
 columns = ['geo.latitude', 'geo.longitude', 'people_in']
 data_in = df_raw[columns]
 
+columns = ['geo.latitude', 'geo.longitude', 'people_out']
+data_out = df_raw[columns]
+
 print('-'*50)
 print(data_in)
 
 map = folium.Map(location=[37.566621, 126.978208], zoom_start=12)
 
 HeatMap(data = data_in).add_to(map)
+# HeatMap(data = data_out).add_to(map)
 
-map.show_in_browser()
+# map.show_in_browser()
+map.save('./map-in.html')
 
 
 
