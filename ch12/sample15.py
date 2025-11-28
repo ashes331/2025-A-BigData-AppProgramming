@@ -1,3 +1,6 @@
+# 퇴근시간이 가장 많은 장소 확인
+# 츨근시간 9시 이전(9시 포함)
+# 최근시간 5시 이후 8시 까지
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -21,6 +24,10 @@ print(df_raw.info())
 
 #data_in = df_raw[df_raw['timestamp'].dt.hour <= 9][['station_code', 'people_in']].groupby('station_code').sum()
 data_in = df_raw[df_raw['timestamp'].dt.hour <= 9][['station_code', 'people_out']].groupby('station_code').sum()
+
+# 17 <= hour <= 20
+
+
 
 #data_in = df_raw[df_raw['timestamp'].dt.hour <= 9]
 #data_in = data_in[['station_code', 'people_in']]
