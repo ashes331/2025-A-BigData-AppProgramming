@@ -30,7 +30,7 @@ print(df_raw.info())
 print(df_raw.head())
 
 #df_raw.plot.line()
-#plt.show()
+#plt.show().
 
 df_raw.boxplot(column='middle_price', by=['date_month'])
 plt.show()
